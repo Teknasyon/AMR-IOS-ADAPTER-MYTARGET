@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'AMRAdapterMytarget/Libs/AMRAdapterMytarget.xcframework'
   s.dependency 'myTargetSDK', '5.21.7'
   s.dependency 'AMRSDK', '~> 1.5.38'
-  s.ios.framework = 'iAd'
+  s.framework = 'iAd'
 end
