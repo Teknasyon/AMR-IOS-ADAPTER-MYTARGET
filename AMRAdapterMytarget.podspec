@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.vendored_frameworks = 'AMRAdapterMytarget/Libs/AMRAdapterMytarget.xcframework'
-  s.dependency 'myTargetSDK', '5.21.8'
+  s.dependency 'myTargetSDK', '5.21.7'
   s.dependency 'AMRSDK', '~> 1.5.38'
   s.ios.framework = 'iAd'
 end
